@@ -1,0 +1,6 @@
+<%= form_with model :@post |f| %>
+<%= f.text_field :title %>
+<%= f.text_area :sub_body %>
+<%= f.text_area :main_body %>
+<%= f.submit "ok" %>
+<% end %>

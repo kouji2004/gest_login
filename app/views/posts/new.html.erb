@@ -1,0 +1,8 @@
+
+<%= form_with model: @post do |f| %>
+<%=f.text_field :title %>
+<%= f.text_area :sub_body %>
+<%= f.text_area :main_body %>
+<%= f.submit "送信" %>
+
+<% end %>
